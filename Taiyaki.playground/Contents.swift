@@ -1,3 +1,9 @@
-import UIKit
-
-var greeting = "Hello, playground"
+struct Taiyaki {
+    var nakami = "あんこ"
+    func sayNakami() {
+        print("中身は" + nakami + "です。")
+    }
+}
+var taiyaki = Taiyaki()
+taiyaki.nakami = "クリーム"
+taiyaki.sayNakami()
